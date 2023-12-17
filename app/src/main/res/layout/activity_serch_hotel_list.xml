@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HotelList">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/search_layout"
+        android:stretchColumns="1"
+        android:orientation="horizontal"
+        android:paddingBottom="75dp">
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/hotel_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/arrow_left"
+                    android:layout_marginTop="53dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <androidx.appcompat.widget.SearchView
+                    android:id="@+id/search_main_hotes"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="46dp"
+                    android:layout_marginRight="18dp"
+                    android:background="@drawable/searchbox"
+                    app:iconifiedByDefault="false"
+                    app:queryHint="Search any cook"
+                    app:searchIcon="@drawable/search"
+
+                    />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="20dp"
+            android:id="@+id/categoryuserlist"
+            android:layout_width="409dp"
+            android:layout_height="889dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scrollbars="vertical"/>
+
+    </TableLayout>
+
+</ScrollView>

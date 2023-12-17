@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "760066897116",
+    "project_id": "ngabur-a5951",
+    "storage_bucket": "ngabur-a5951.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760066897116:android:561b3fcee186e686673019",
+        "android_client_info": {
+          "package_name": "com.example.ngabur"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZqIiRjGMFOz5qxIUt-TSrUKldDdHeFFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
