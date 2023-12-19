@@ -1,6 +1,6 @@
 Ngabur
 
-Arif Mursadi - 2501986851
+Arif Mursadi - 2501986851 |
 William Syaputra - 2501987431
 
 Group project yang menghasilkan Aplikasi android Booking Hotel bernama Ngabur
